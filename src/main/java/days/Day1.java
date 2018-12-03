@@ -9,10 +9,8 @@ import java.util.List;
  */
 public class Day1 extends Day {
 
-    private final File file;
-
     public Day1(File file) {
-        this.file = file;
+        super(file);
     }
 
     public void solvePart1() throws IOException {

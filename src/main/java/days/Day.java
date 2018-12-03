@@ -7,6 +7,12 @@ import java.io.*;
  */
 public abstract class Day {
 
+    final File file;
+
+    Day(File file) {
+        this.file = file;
+    }
+
     public abstract void solvePart1() throws IOException;
 
     public abstract void solvePart2() throws IOException;
